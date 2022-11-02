@@ -32,7 +32,7 @@ Dado este código base HTML que está en el fichero index.html:
 
 ### Apartado 1a
 
-Escribe el código javascript necesario para pintar un botón en el body y que el botón tenga el texto **"1 botón"**
+Escribe el código javascript necesario para pintar un botón en el body y que el botón tenga el texto **"1 botón"**.
 
 ### Apartado 1b
 
@@ -73,3 +73,11 @@ const array2 = [
   [6, 4, 2],
 ];
 ```
+
+## Extra
+
+- Se añaden estilos a la lista de los ejercicios.
+- Se añaden estilos a los botones.
+- Se realiza un merge de todos las ramas en la rama master. Para poder acceder a todos los ejercicios desde la rama master.
+
+
