@@ -27,5 +27,15 @@ for (let i = 0; i < result.length; i++) {
     });
 }
 
-document.getElementById("result").innerHTML = result;
+const list = document.createElement("ul");
+
+for (let i = 0; i < result.length; i++) {
+  result[i].map(function (value, index) {
+    const li = document.createElement("li");
+    li.innerHTML = value;
+    list.appendChild(li);
+  });
+}
+
+document.getElementById("result").appendChild(list);
 console.log(result);
