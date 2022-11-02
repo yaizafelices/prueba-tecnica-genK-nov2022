@@ -6,6 +6,7 @@ function createButton()
         const button = document.createElement("button");
         button.innerText = i+' botón';
         button.id = 'button'+i;
+        button.className = 'button';
         document.body.appendChild(button);
     }    
 }
