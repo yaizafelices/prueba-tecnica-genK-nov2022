@@ -15,13 +15,11 @@ const array1 = [
   for (let i = 0; i < array1.length; i++) {
     result.push(
       array1[i].map(function (value, index) {
-        return parseInt(array2[i][index], 10) * parseInt(value, 10);
+        return parseInt(array2[index][i], 10) * parseInt(value, 10);
       })
     );
   }
   
-  document.getElementById("array1").innerHTML = array1;
-  document.getElementById("array2").innerHTML = array2;
   document.getElementById("result").innerHTML = result;
 
   console.log(result);
