@@ -78,6 +78,5 @@ const array2 = [
 
 - Se añaden estilos a la lista de los ejercicios.
 - Se añaden estilos a los botones.
+- Se pinta el resultado del ejercicio 2 y se añaden estilos en los apartados.
 - Se realiza un merge de todos las ramas en la rama master. Para poder acceder a todos los ejercicios desde la rama master.
-
-
