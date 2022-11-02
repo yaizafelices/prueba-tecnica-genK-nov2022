@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(230, 246, 206);
+    display: flex;
+    margin: 30px;
+    font-size: 18px;
+}
+
+.result ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100px;
+    text-align: center;
+}
+.result li {
+    list-style: none;
+    margin: 20px;
+}
